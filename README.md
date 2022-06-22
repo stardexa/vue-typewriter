@@ -31,7 +31,11 @@ export default {
   }
 }
 ```
+<<<<<<< HEAD
 #### daha sonra aşşağıdaki kullanım şekliyle kullanabilirsiniz.
+=======
+####daha sonra aşşağıdaki kullanım şekliyle kullanabilirsiniz.
+>>>>>>> master
 ```
 typeWriterText('İsminizi Giriniz.','name','30')
 ```
