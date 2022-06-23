@@ -12,8 +12,7 @@ export default {
   },
   methods: {
     writeClear() {
-      this.i = 0
-      this.output = ""
+      this.i = 0 
     },
     typeWriterText(_title, _for, _speed = 60) {
       if (this.i < _title.length) {
@@ -30,9 +29,12 @@ export default {
     },
   }
 }
+
 ```
 daha sonra aşşağıdaki kullanım şekliyle kullanabilirsiniz.
 ```
-typeWriterText('İsminizi Giriniz.','name','30')
+html kısmında bir element oluşturup ref 'ini belirmeniz gerekmektedir.
+typeWriterText(_title,_ref,_speed)
+örnek : typeWriterText('İsminizi Giriniz.','name','30')
 ```
 
