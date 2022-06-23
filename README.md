@@ -2,7 +2,7 @@
 
 ## Proje kullanım şekli
 #### İlk olarak altdaki kodları projenize ekleyin 
-```
+```javascript
 export default {
   name: "App",
   data() {
@@ -33,7 +33,7 @@ export default {
 ```
 daha sonra html kısmında bir element oluşturup ref 'ini belirmeniz gerekmektedir.
 aşşağıdaki kullanım şekliyle kullanabilirsiniz.
-```
+```javascript
 typeWriterText(_title,_ref,_speed)
 
 Örnek : 
